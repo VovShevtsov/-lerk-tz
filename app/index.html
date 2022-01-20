@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/x-icon" sizes="16x16">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title></title>
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="site-container">
+    <header class="header">
+  <div class="container header__container">
+    <a class="logo" href="#">
+      <svg class="logo__icon" width="76" height="36">
+        <use xlink:href="img/sprite.svg#logo"></use>
+      </svg>
+    </a>
+  </div>
+
+</header>
+
+    <main class="main">
+      <section class="top">
+  <div class="container">
+    <div class="top__inner">
+      <div class="breadcrumbs">
+        <ul class="breadcrumbs__list">
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">
+              Главная
+            </a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">
+              Рассылки
+            </a>
+          </li>
+          <li class="breadcrumbs__item">
+            <a class="breadcrumbs__link" href="#">
+              Хлебные крошки
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h1 class="top__title">Подписки &laquo;Клерка&raquo;</h1>
+
+      <ul class="top__list">
+        <li class="top__item">
+          <a class="top__link top__link--active" href="#">Рассылки</a>
+        </li>
+        <li class="top__item">
+          <a class="top__link" href="#">Соцсети</a>
+        </li>
+        <li class="top__item">
+          <a class="top__link" href="#">Мессенджеры</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+      <section class="subscriptions">
+  <div class="container subscriptions__container">
+
+    <h2 class="subscriptions__title">
+      Выберите рассылки, которые подходят именно вам
+    </h2>
+
+    <form action="#" class="subscriptions-form">
+      <label class="subscriptions-form__label">
+        <input class="subscriptions-form__input" type="email" placeholder="Электронная почта">
+        <button class="subscriptions-form__btn btn-reset" type="submit"><span class="subscriptions-form__btn-text">
+            Подписаться
+          </span></button>
+      </label>
+      <input type="checkbox" class="subscriptions-form__switch-input" id="switch1">
+      <label class="subscriptions-form__switch" for="switch1">
+
+        Подписаться на все рассылки
+      </label>
+    </form>
+
+    <div class="subscriptions__inner">
+      <article class="subscriptions-card">
+        <a class="subscriptions-card__link" href="#">
+          <div class="subscriptions-card__content">
+            <span class="subscriptions-card__suptitle">
+              Перед рассветом
+            </span>
+            <h3 class="subscriptions-card__title">
+              Утренний бухгалтер
+            </h3>
+            <p class="subscriptions-card__subtitle">
+              Самые важные новости и&nbsp;события за&nbsp;день. Кратко, по&nbsp;делу, структурировано.
+            </p>
+            <div class="subscriptions-card__descriptions">
+              <p class="subscriptions-card__descr">
+                Новости для бухгалтеров, ИП&nbsp;и&nbsp;директора
+              </p>
+              <p class="subscriptions-card__descr">
+                Подборка статей за&nbsp;день
+              </p>
+            </div>
+            <input type="checkbox" class="subscriptions-card__switch-input" id="switch2">
+            <label class="subscriptions-card__switch" for="switch2">
+              Уже получает 59&nbsp;342 человек
+            </label>
+          </div>
+          <div class="subscriptions-card__images">
+            <img class="subscriptions-card__img" srcset="img/item-1.webp">
+          </div>
+        </a>
+      </article>
+      <article class="subscriptions-card">
+        <a class="subscriptions-card__link" href="#">
+          <div class="subscriptions-card__content">
+            <span class="subscriptions-card__suptitle">
+              После заката
+            </span>
+            <h3 class="subscriptions-card__title">
+              Ночной бухгалтер
+            </h3>
+            <p class="subscriptions-card__subtitle">
+              Самая краткая газета о&nbsp;налогах и&nbsp;бухучете в&nbsp;мире&nbsp;&mdash; современная рассылка для
+              чтения.
+            </p>
+            <div class="subscriptions-card__descriptions">
+              <p class="subscriptions-card__descr">
+                Анализ, оценка и&nbsp;только самое главное
+              </p>
+              <p class="subscriptions-card__descr">
+                Лучшие комменты юзеров в&nbsp;обзоре
+              </p>
+            </div>
+            <input type="checkbox" class="subscriptions-card__switch-input" id="switch3">
+            <label class="subscriptions-card__switch" for="switch3">
+              Уже получает 37&nbsp;480 человек
+            </label>
+          </div>
+          <div class="subscriptions-card__images">
+            <img class="subscriptions-card__img" srcset="img/item-2.webp">
+          </div>
+        </a>
+      </article>
+      <article class="subscriptions-card">
+        <a class="subscriptions-card__link" href="#">
+          <div class="subscriptions-card__content">
+            <span class="subscriptions-card__suptitle">
+              Раз в две недели
+            </span>
+            <h3 class="subscriptions-card__title">
+              Ножницы скидок
+            </h3>
+            <p class="subscriptions-card__subtitle">
+              Подборка самых выгодных и&nbsp;полезных спецпредложений от&nbsp;надежных компаний.
+            </p>
+            <div class="subscriptions-card__descriptions">
+              <p class="subscriptions-card__descr">
+                Акции и&nbsp;скидки от&nbsp;лидеров рынка
+              </p>
+              <p class="subscriptions-card__descr">
+                Те, кто подписался&nbsp;&mdash; экономят много денег
+              </p>
+            </div>
+            <input type="checkbox" class="subscriptions-card__switch-input" id="switch4">
+            <label class="subscriptions-card__switch" for="switch4">
+              Уже получает 92&nbsp;118 человек
+            </label>
+          </div>
+          <div class="subscriptions-card__images">
+            <img class="subscriptions-card__img" srcset="img/item-3.webp">
+          </div>
+        </a>
+      </article>
+      <article class="subscriptions-card">
+        <a class="subscriptions-card__link" href="#">
+          <div class="subscriptions-card__content">
+            <span class="subscriptions-card__suptitle">
+              По&nbsp;мере появления анонсов
+            </span>
+            <h3 class="subscriptions-card__title">
+              Чемодан вебинаров
+            </h3>
+            <p class="subscriptions-card__subtitle">
+              Подборка с&nbsp;анонсами бесплатных вебинаров на&nbsp;самые торовые темы при участии экспертов.
+            </p>
+            <div class="subscriptions-card__descriptions">
+              <p class="subscriptions-card__descr">
+                Никогда не&nbsp;пришлем платные вебинары
+              </p>
+              <p class="subscriptions-card__descr">
+                Подборка топовых тем для вебинаров
+              </p>
+            </div>
+            <input type="checkbox" class="subscriptions-card__switch-input" id="switch5">
+            <label class="subscriptions-card__switch" for="switch5">
+              Уже получает 92&nbsp;082 человек
+            </label>
+          </div>
+          <div class="subscriptions-card__images">
+            <img class="subscriptions-card__img" srcset="img/item-4.webp">
+          </div>
+        </a>
+      </article>
+    </div>
+
+  </div>
+</section>
+
+    </main>
+    <footer class="footer">
+  <div class="container footer__container">
+    <img class="footer__img" src="img/footer-img.svg" alt="footer icon">
+  </div>
+</footer>
+
+  </div>
+  <script src="js/vendor.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
